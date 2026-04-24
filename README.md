@@ -3,29 +3,29 @@ Customer Churn Prediction
 This project analyzes customer data to understand and predict customer churn. It combines Python (EDA), SQL (analysis), and Power BI (dashboard) to extract insights and visualize customer behavior.
 📁 Dataset
 File: churn.csv
-Contains customer details such as:
+Contains:
 Demographics (Gender, SeniorCitizen)
 Services (InternetService, PhoneService, Streaming)
-Account info (Tenure, Contract)
+Account Info (Tenure, Contract)
 Billing (MonthlyCharges, TotalCharges)
-Target variable: Churn
+🎯 Target Variable: Churn
 🧠 Python Analysis
 File: customer_churn_prediction.ipynb
-Libraries used:
+Libraries Used:
 pandas
 numpy
 matplotlib
 seaborn
-Steps performed:
+Steps:
 Data cleaning
 Handling missing values
 Data transformation
 Exploratory Data Analysis (EDA)
-Visualization of churn patterns
+Data visualization
 🗄️ SQL Analysis
 File: churn_analysis.sql
-Queries include:
-Total customers and churn distribution
+Queries Include:
+Total customers & churn distribution
 Churn percentage
 Churn by contract type
 Average monthly charges by churn
@@ -34,7 +34,7 @@ Tenure group analysis
 📊 Power BI Dashboard
 File: churn_dashboard1.pbix
 Preview: churn_dashboard.png
-Dashboard Highlights:
+Highlights:
 Total Customers: 7K
 Churned Customers: 2K
 Churn Rate: 26.54%
@@ -43,22 +43,22 @@ Churn by Contract Type
 Churn by Payment Method
 Churn by Tenure
 Customer Distribution
-📈 Key Insights
+Key Insights
 Month-to-month contracts show higher churn
 Customers with low tenure are more likely to churn
 Electronic check users have higher churn rates
-Higher monthly charges are linked with higher churn
+Higher monthly charges lead to higher churn
 🛠️ Technologies Used
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 SQL
 Power BI
 📂 Project Structure
 
-churn.csv
-churn_analysis.sql
-churn_dashboard.png
-churn_dashboard1.pbix
-customer_churn_prediction.ipynb
+churn.csv  
+churn_analysis.sql  
+churn_dashboard.png  
+churn_dashboard1.pbix  
+customer_churn_prediction.ipynb  
 README.md
 ▶️ How to Run
 Python
@@ -66,8 +66,6 @@ Python
 pip install pandas numpy matplotlib seaborn
 Run the Jupyter Notebook.
 SQL
-Execute queries in any SQL environment.
+Run queries in any SQL environment.
 Power BI
 Open .pbix file in Power BI Desktop.
-👩‍💻 Author
-Surabhi Singh
