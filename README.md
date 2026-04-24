@@ -1,71 +1,30 @@
-Customer Churn Prediction
-📌 Overview
-This project analyzes customer data to understand and predict customer churn. It combines Python (EDA), SQL (analysis), and Power BI (dashboard) to extract insights and visualize customer behavior.
-📁 Dataset
-File: churn.csv
-Contains:
-Demographics (Gender, SeniorCitizen)
-Services (InternetService, PhoneService, Streaming)
-Account Info (Tenure, Contract)
-Billing (MonthlyCharges, TotalCharges)
-🎯 Target Variable: Churn
-🧠 Python Analysis
-File: customer_churn_prediction.ipynb
-Libraries Used:
-pandas
-numpy
-matplotlib
-seaborn
-Steps:
-Data cleaning
-Handling missing values
-Data transformation
-Exploratory Data Analysis (EDA)
-Data visualization
-🗄️ SQL Analysis
-File: churn_analysis.sql
-Queries Include:
-Total customers & churn distribution
-Churn percentage
-Churn by contract type
-Average monthly charges by churn
-Churn by internet service
-Tenure group analysis
-📊 Power BI Dashboard
-File: churn_dashboard1.pbix
-Preview: churn_dashboard.png
-Highlights:
-Total Customers: 7K
-Churned Customers: 2K
-Churn Rate: 26.54%
-Visualizations:
-Churn by Contract Type
-Churn by Payment Method
-Churn by Tenure
-Customer Distribution
-Key Insights
-Month-to-month contracts show higher churn
-Customers with low tenure are more likely to churn
-Electronic check users have higher churn rates
-Higher monthly charges lead to higher churn
-🛠️ Technologies Used
+Customer Churn Prediction Dashboard
+
+📌 Project Overview
+This project analyzes customer data to understand patterns and predict customer churn. It combines Python (EDA), SQL (analysis), and Power BI (dashboard) to generate insights and visualize customer behavior.
+🛠️ Tools Used
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 SQL
 Power BI
-📂 Project Structure
+📁 Files Included
+-customer_churn_prediction.ipynb → Data analysis using Python
+-churn_analysis.sql → SQL queries
+-churn_dashboard1.pbix → Power BI dashboard
+-churn.csv → Dataset
+-churn_dashboard.png → Dashboard preview
 
-churn.csv  
-churn_analysis.sql  
-churn_dashboard.png  
-churn_dashboard1.pbix  
-customer_churn_prediction.ipynb  
-README.md
+📊 Key Insights
+-Customers with month-to-month contracts have higher churn
+-Low tenure customers are more likely to leave
+-Electronic check users show higher churn rates
+-Higher monthly charges are linked to increased churn
+📈 Dashboard Preview
+![Dashboard Preview](churn_dashboard.png)
 ▶️ How to Run
-Python
+Open .ipynb file in Jupyter Notebook
+Run SQL queries in any SQL environment
+Open .pbix file using Power BI Desktop
+👩‍💻 Author
+Surabhi Singh
 
-pip install pandas numpy matplotlib seaborn
-Run the Jupyter Notebook.
-SQL
-Run queries in any SQL environment.
-Power BI
-Open .pbix file in Power BI Desktop.
+
